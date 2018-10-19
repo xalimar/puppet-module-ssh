@@ -286,3 +286,8 @@ Match <%= key %>
 <%     end -%>
 <%   end -%>
 <% end -%>
+
+# Extra config lines
+<% @sshd_config_extralines.each do |line| %>
+<%= line %>
+<% end %>
