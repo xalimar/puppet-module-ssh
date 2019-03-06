@@ -31,6 +31,7 @@ class ssh (
   $ssh_sendenv                            = 'USE_DEFAULTS',
   $ssh_gssapiauthentication               = 'yes',
   $ssh_gssapidelegatecredentials          = undef,
+  $ssh_config_extralines                  = [],
   $sshd_config_path                       = '/etc/ssh/sshd_config',
   $sshd_config_owner                      = 'root',
   $sshd_config_group                      = 'root',
